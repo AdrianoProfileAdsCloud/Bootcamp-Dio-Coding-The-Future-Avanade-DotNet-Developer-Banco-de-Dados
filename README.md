@@ -13,26 +13,26 @@ Segue a modelagem do Banco de Dados:
 ![Diagrama banco de dados](Imagens/diagrama.png)
 
 
-As tabelas sao descritas conforme a seguir:
+* As tabelas sao descritas conforme a seguir:
 
-**Filmes**
+- [X] **Filmes**
 
 Tabela responsável por armazenar informações dos filmes.
 
-**Atores**
+- [X] **Atores**
 
 Tabela responsável por armazenar informações dos atores.
 
-**Generos**
+- [X] **Generos**
 
 Tabela responsável por armazenar os gêneros dos filmes.
 
-**ElencoFilme**
+- [X] **ElencoFilme**
 
 Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e atores, ou seja, um ator pode trabalhar em muitos filmes, e filmes
 podem ter muitos atores.
 
-**FilmesGenero**
+- [X] **FilmesGenero**
 
 Tabela responsável por representar um relacionamento do tipo muitos para muitos entre filmes e gêneros, ou seja, um filme pode ter mais de um gênero, e um genêro pode fazer parte de muitos filmes.
 
@@ -58,7 +58,6 @@ Tabela responsável por representar um relacionamento do tipo muitos para muitos
 
 ## :hammer: Preparando o banco de dados
 Você deverá executar o arquivo **Script -Criação do Banco de Dados e Carga de Dados.sql** no Microsoft SQL Server, presente na pasta Banco de Dados deste repositório. Esse script contém comandos para a criação do Banco chamado **Filmes**, juntamente com outros comandos para criação dos realacionamentos entre as tabelas ElencoFilme,FilmeGenero.Além de conter comandos para inserção de alguns dados para que possamos realizar as consultas.
-
 
 ## Objetivo
 Cada instrução em sql a seguir deve retornar os dados mostrados abaixo. Abaixo de cada pedido tem o retorno esperado. O retorno deve ser igual ao da imagem.
