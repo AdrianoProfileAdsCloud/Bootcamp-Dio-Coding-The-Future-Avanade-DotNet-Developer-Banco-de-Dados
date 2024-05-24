@@ -1,8 +1,7 @@
-# DIO - Trilha .NET - Banco de Dados
-www.dio.me
+# Bootcamp Dio - Coding The Future Avanade .NET Developer - Banco de Dados(SGBD)
 
 ## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de banco de dados, da trilha .NET da DIO.
+Apsentar os conhecimentos adquiridos no módulo de banco de dados,para  criar um Banco de Dados em Microsoft Sql Server e realizar algumas consultas conforme a seguir.
 
 ## Contexto
 Você é responsável pelo banco de dados de um site de filmes, onde são armazenados dados sobre os filmes e seus atores. Sendo assim, foi solicitado para que você realize uma consulta no banco de dados com o objetivo de trazer alguns dados para análises.
