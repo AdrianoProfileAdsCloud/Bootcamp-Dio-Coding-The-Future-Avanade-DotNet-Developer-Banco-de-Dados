@@ -64,6 +64,12 @@ Você deverá executar o arquivo **Script -Criação do Banco de Dados e Carga d
 Cada instrução em sql a seguir deve retornar os dados mostrados abaixo. Abaixo de cada pedido tem o retorno esperado. O retorno deve ser igual ao da imagem.
 
 ## 1 - Buscar o nome e ano dos filmes
+```
+SELECT 
+   NOME,ANO
+FROM
+    Filmes;
+```
 
 ![Exercicio 1](Imagens/1.png)
 
