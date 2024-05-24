@@ -48,9 +48,10 @@ Tabela responsável por representar um relacionamento do tipo muitos para muitos
      <br>
   E container com a instância do SQL será criada e inicada em seguida.</p>
   <p>Para acessar a instância criada,realize o download do SQL Server Management Studio (SSMS)no link abaixo.Após realizar o dwnload e a instalação, abra o  SQL Server Management Studio e preencha os campos como mostra na imagem baixo:Obs: A senha utilizada consta no arquivo de instalação docker-compose.</p>
-
-[Download SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+  
 <div align="center">
+  
+[Download SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 <img src="https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Banco-de-Dados/blob/main/Imagens/SQL%20Server%20Management.png" width="350">
 </div>
  
