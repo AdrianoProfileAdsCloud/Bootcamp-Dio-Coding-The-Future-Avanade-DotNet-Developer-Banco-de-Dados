@@ -31,7 +31,7 @@ CREATE TABLE Generos(
 	Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,
 	Genero varchar(20) NULL)
 
--- ADICIONANDO RELAMENTO ENTRE AS TABELAS
+-- ADICIONANDO RELACIONAMENTO ENTRE AS TABELAS
 
 ALTER TABLE ElencoFilme  ADD  CONSTRAINT FK__ElencoFilme__IdAtor FOREIGN KEY(IdAtor)
 REFERENCES Atores (Id)
@@ -39,7 +39,7 @@ REFERENCES Atores (Id)
 ALTER TABLE ElencoFilme ADD  CONSTRAINT FK__ElencoFilme__IdFilme FOREIGN KEY(IdFilme)
 REFERENCES Filmes (Id)
 
-ALTER TABLE FilmesGenero ADD  CONSTRAINT FK__FilmesGen__IdFilme FOREIGN KEY(IdFilme)
+ALTER TABLE FilmesGenero ADD  CONSTRAINT FK__FilmesGenero__IdFilme FOREIGN KEY(IdFilme)
 REFERENCES Filmes (Id)
 
 ALTER TABLE FilmesGenero ADD  CONSTRAINT FK__FilmesGenero__IdGenero FOREIGN KEY(IdGenero)
@@ -92,7 +92,7 @@ INSERT Atores ( PrimeiroNome, UltimoNome, Genero) VALUES ('David', N'Aston', N'M
 
 INSERT Atores ( PrimeiroNome, UltimoNome, Genero) VALUES ( 'Ali', 'Astin', 'F')
 
--- SEGUNDA ENTIDADE A SER FEITA A INSERÇÃ DE DADOS PARA REALIZAÇÃO DAS CONSULTAS NA ENTIDADE Filme
+-- SEGUNDA ENTIDADE A SER FEITA A INSERÇÃ DE DADOS PARA REALIZAÇÃO DAS CONSULTAS NA ENTIDADE FILME
 
 INSERT Filmes ( Nome, Ano, Duracao) VALUES ( 'Um Corpo que Cai', 1958, 128)
 
@@ -161,39 +161,25 @@ INSERT ElencoFilme (IdAtor, IdFilme, Papel) VALUES (3, 3, 'T.E. Lawrence')
 
 INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 4, 4, 'Michael')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 6, 6, 'Rick Deckard')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 5, 6, 'Rick Deckard')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 7, 8, 'McManus')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 6, 8, 'McManus')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 9, 10, 'Eddie Adams')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 8, 10, 'Eddie Adams')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 10, 11, 'Alvy Singer')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 9, 11, 'Alvy Singer')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 11, 12, 'San')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 10, 12, 'San')
 
-INSERT ElencoFilme (IdAtor, IdFilme, Papel) VALUES ( 12, 13, 'Andy Dufresne')
+INSERT ElencoFilme (IdAtor, IdFilme, Papel) VALUES ( 11, 13, 'Andy Dufresne')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 13, 14, 'Lester Burnham')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 12, 14, 'Lester Burnham')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 14, 15, 'Rose DeWitt Bukater')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 13, 15, 'Rose DeWitt Bukater')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 15, 16, 'Sean Maguire')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 14, 16, 'Sean Maguire')
 
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 16, 17, 'Ed')
-
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 17, 18, 'Renton')
-
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 19, 20, 'Elizabeth Darko')
-
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 20, 21, 'Older Jamal')
-
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 21, 22, 'Ripley')
-
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 13, 23, 'Bobby Darin')
-
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 8, 9, 'J.J. Gittes')
-
-INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 18, 19, 'Alfred Borden')
+INSERT ElencoFilme ( IdAtor, IdFilme, Papel) VALUES ( 15, 17, 'Ed')
 
 
 --QUARTA ENTIDADE A SER FETA A INSERÇÃ DE DADOS PARA REALIZAÇÃO DAS CONSULTAS NA ENTIDADE Generos
