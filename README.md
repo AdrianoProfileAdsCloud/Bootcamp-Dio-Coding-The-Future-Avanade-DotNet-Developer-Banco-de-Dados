@@ -64,16 +64,24 @@ Você deverá executar o arquivo **Script -Criação do Banco de Dados e Carga d
 Cada instrução em sql a seguir deve retornar os dados mostrados abaixo. Abaixo de cada pedido tem o retorno esperado. O retorno deve ser igual ao da imagem.
 
 ## 1 - Buscar o nome e ano dos filmes
-```
+```sql
 SELECT 
    NOME,ANO
 FROM
-    Filmes;
+   Filmes;
 ```
 
 ![Exercicio 1](Imagens/1.png)
 
 ## 2 - Buscar o nome e ano dos filmes, ordenados por ordem crescente pelo ano
+```sql
+SELECT 
+  NOME,ANO
+FROM
+  FILMES
+ORDER BY
+  ANO;
+```
 
 ![Exercicio 2](Imagens/2.png)
 
