@@ -12,6 +12,7 @@ Segue a modelagem do Banco de Dados:
 
 ![Diagrama banco de dados](Imagens/diagrama.png)
 
+
 As tabelas sao descritas conforme a seguir:
 
 **Filmes**
@@ -40,12 +41,17 @@ Tabela responsável por representar um relacionamento do tipo muitos para muitos
      Para isso o docker deve estar instalado na máquina previamente, segue link caso não tenha instalado:
                   https://www.docker.com/products/docker-desktop/
      Basta entrar na pasta Banco de Dados onde esta o aqruivo docker-compose.yml, após clonar ou fazer download deste projeto e executar o seguinte comando no terminal: 
-                docker-compose up -d
+     
+                 colocar  aimagem  docker-compose up -d
+                 
       E container com a instância do SQL será criada e inicada em seguida.
 
-      Para acessar a instância criada, preencha os campos como mostra na imagem baixo:
+      Para acessar a instância criada,realize o download do SQL Server Management Studio (SSMS)no link abaixo.Após realizar o dwnload e a instalação, abra o  SQL Server Management Studio e preencha os campos como mostra na imagem baixo:Obs: A senha utilizada consta no arquivo de instalação docker-compose.
       
        ![Diagrama banco de dados](Imagens/diagrama.png)
+
+
+       Pronto ao se concetar com a instância no container docker poderá seguir com os passos seguintes.
       
 
 
