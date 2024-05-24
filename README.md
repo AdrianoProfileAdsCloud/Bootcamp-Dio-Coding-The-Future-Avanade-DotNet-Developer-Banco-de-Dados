@@ -40,11 +40,11 @@ Tabela responsável por representar um relacionamento do tipo muitos para muitos
   <p> Na pasta Banco de Dados encontra-se o arquivo docker-compose.yml resposável por fazer a instalção do Microsoft SQL Server em um container no docker.
      Para isso o docker deve estar instalado na máquina previamente, segue link caso não tenha instalado:</p>
      
-                  [Docker](https://www.docker.com/products/docker-desktop)
+[Docker](https://www.docker.com/products/docker-desktop)
                   
-     Basta entrar na pasta Banco de Dados onde esta o aqruivo docker-compose.yml, após clonar ou fazer download deste projeto e executar o seguinte comando no terminal: 
+    <p> Basta entrar na pasta Banco de Dados onde esta o aqruivo docker-compose.yml, após clonar ou fazer download deste projeto e executar o seguinte comando no terminal:</p>
      
-             ![exemplo]([exemplo.png](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Banco-de-Dados/blob/main/Imagens/docker-compose.png))
+  ![Docker-Compose](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Banco-de-Dados/blob/main/Imagens/docker-compose.png)
                  
       E container com a instância do SQL será criada e inicada em seguida.
 
