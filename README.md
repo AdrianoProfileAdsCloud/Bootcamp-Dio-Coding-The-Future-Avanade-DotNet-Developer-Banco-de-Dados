@@ -44,18 +44,17 @@ Tabela responsável por representar um relacionamento do tipo muitos para muitos
                   
    <p> Basta entrar na pasta Banco de Dados onde esta o aqruivo docker-compose.yml, após clonar ou fazer download deste projeto e executar o seguinte comando no terminal:
      <br>
-<center>docker-compose up -d</center>
+             <div align="center">docker-compose up -d</div>
      <br>
   E container com a instância do SQL será criada e inicada em seguida.</p>
+  <p>Para acessar a instância criada,realize o download do SQL Server Management Studio (SSMS)no link abaixo.Após realizar o dwnload e a instalação, abra o  SQL Server Management Studio e preencha os campos como mostra na imagem baixo:Obs: A senha utilizada consta no arquivo de instalação docker-compose.</p>
 
-      Para acessar a instância criada,realize o download do SQL Server Management Studio (SSMS)no link abaixo.Após realizar o dwnload e a instalação, abra o  SQL Server Management Studio e preencha os campos como mostra na imagem baixo:Obs: A senha utilizada consta no arquivo de instalação docker-compose.
-
-      Download SQL Server Management Studio  https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
-      
-       ![Diagrama banco de dados](Imagens/diagrama.png)
-
-
-       Pronto ao se concetar com a instância no container docker poderá seguir com os passos seguintes.
+[Download SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
+<div align="center">
+<img src="https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Banco-de-Dados/blob/main/Imagens/SQL%20Server%20Management.png" width="350">
+</div>
+ 
+ Pronto ao se concetar com a instância no container docker poderá seguir com os passos seguintes.
       
 
 
