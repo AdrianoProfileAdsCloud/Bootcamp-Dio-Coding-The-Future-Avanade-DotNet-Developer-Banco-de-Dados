@@ -57,7 +57,7 @@ Tabela responsável por representar um relacionamento do tipo muitos para muitos
  <p>Pronto ao se concetar com a instância no container docker poderá seguir com os passos seguintes.</p>
 
 ## :hammer: Preparando o banco de dados
-Você deverá executar o arquivo **Script -Criação do Banco de Dados e Carga de Dados.sql** no Microsoft SQL Server, presente na pasta Banco de Dados deste repositório. Esse script contém comandos para a criação do Banco chamado **Filmes**, juntamente com outros comandos para criação dos realacionamentos entre as tabelas ElencoFilme,FilmeGenero.Além de conter comandos para inserção de alguns dados para que possamos realizar as consultas.
+Execute no terminal o arquivo **Script -Criação do Banco de Dados e Carga de Dados.sql** no Microsoft SQL Server, presente na pasta Banco de Dados deste repositório. Esse script contém comandos para a criação do Banco chamado **Filmes**, juntamente com outros comandos para criação dos realacionamentos entre as tabelas **ElencoFilme**,**FilmeGenero**.Além de conter comandos para inserção de alguns dados para que possamos realizar as consultas.
 
 ## Objetivo
 Cada instrução em sql a seguir deve retornar os dados mostrados abaixo. Abaixo de cada pedido tem o retorno esperado. O retorno deve ser igual ao da imagem.
