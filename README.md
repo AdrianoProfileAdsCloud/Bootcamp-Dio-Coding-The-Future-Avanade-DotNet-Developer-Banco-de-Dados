@@ -44,7 +44,7 @@ Você deverá executar o arquivo **Script -Criação do Banco de Dados e Carga d
 
 
 ## Objetivo
-Você deverá criar diversas consultas, com o objetivo de retornar os dados a seguir. Abaixo de cada pedido tem o retorno esperado. O seu retorno deve ser igual ao da imagem.
+Cada instrução em sql a seguir deve retornar os dados mostrados abaixo. Abaixo de cada pedido tem o retorno esperado. O retorno deve ser igual ao da imagem.
 
 ## 1 - Buscar o nome e ano dos filmes
 
