@@ -42,11 +42,11 @@ Tabela responsável por representar um relacionamento do tipo muitos para muitos
      
 [Docker](https://www.docker.com/products/docker-desktop)
                   
-    <p> Basta entrar na pasta Banco de Dados onde esta o aqruivo docker-compose.yml, após clonar ou fazer download deste projeto e executar o seguinte comando no terminal:</p>
-     
-  ![Docker-Compose](https://github.com/AdrianoProfileAdsCloud/Bootcamp-Dio-Coding-The-Future-Avanade-DotNet-Developer-Banco-de-Dados/blob/main/Imagens/docker-compose.png)
-                 
-      E container com a instância do SQL será criada e inicada em seguida.
+   <p> Basta entrar na pasta Banco de Dados onde esta o aqruivo docker-compose.yml, após clonar ou fazer download deste projeto e executar o seguinte comando no terminal:
+     <br>
+<center>docker-compose up -d</center>
+     <br>
+  E container com a instância do SQL será criada e inicada em seguida.</p>
 
       Para acessar a instância criada,realize o download do SQL Server Management Studio (SSMS)no link abaixo.Após realizar o dwnload e a instalação, abra o  SQL Server Management Studio e preencha os campos como mostra na imagem baixo:Obs: A senha utilizada consta no arquivo de instalação docker-compose.
 
