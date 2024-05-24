@@ -42,7 +42,7 @@ Tabela responsável por representar um relacionamento do tipo muitos para muitos
      
 [Docker](https://www.docker.com/products/docker-desktop)
                   
-   <p> Basta entrar na pasta Banco de Dados onde esta o aqruivo docker-compose.yml, após clonar ou fazer download deste projeto e executar o seguinte comando no terminal:
+   <p> Entre na pasta Banco de Dados onde esta o aqruivo docker-compose.yml, após clonar ou fazer download deste projeto e executar o seguinte comando no terminal:
      <br>
              <div align="center">docker-compose up -d</div>
      <br>
