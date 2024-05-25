@@ -85,6 +85,14 @@ ORDER BY
 ![Exercicio 2](Imagens/2.png)
 
 ## 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duração
+```sql
+SELECT
+  NOME,ANO,DURACAO
+FROM 
+  FILMES
+WHERE
+  NOME = 'DE VOLTA PARA O FUTURO';
+```
 
 ![Exercicio 3](Imagens/3.png)
 
