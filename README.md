@@ -121,14 +121,46 @@ WHERE
 ![Exercicio 5](Imagens/5.png)
 
 ## 6 - Buscar os filmes com a duracao maior que 100 e menor que 150, ordenando pela duracao em ordem crescente
+```sql
+SELECT
+  *
+FROM
+  FILMES
+WHERE	
+	Duracao > 100 
+AND 
+	Duracao < 150
+ORDER BY
+	DURACAO 
+ASC;
+```
 
 ![Exercicio 6](Imagens/6.png)
 
 ## 7 - Buscar a quantidade de filmes lançadas no ano, agrupando por ano, ordenando pela duracao em ordem decrescente
+```sql
+SELECT
+  ANO, COUNT(*) AS Quantidade_de_Filmes_Lançadas_no_Ano
+FROM 
+  FILMES
+GROUP BY 
+	ANO
+ORDER BY
+	Total_de_Filmes
+DESC;
+```
 
 ![Exercicio 7](Imagens/7.png)
 
 ## 8 - Buscar os Atores do gênero masculino, retornando o PrimeiroNome, UltimoNome
+```sql
+SELECT 
+  PrimeiroNome,UltimoNome
+FROM
+  ATORES 
+WHERE
+  GENERO = 'M';
+```
 
 ![Exercicio 8](Imagens/8.png)
 
