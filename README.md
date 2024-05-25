@@ -165,6 +165,16 @@ WHERE
 ![Exercicio 8](Imagens/8.png)
 
 ## 9 - Buscar os Atores do gênero feminino, retornando o PrimeiroNome, UltimoNome, e ordenando pelo PrimeiroNome
+```sql
+SELECT
+ PrimeiroNome,UltimoNome
+FROM
+ ATORES
+WHERE
+ GENERO = 'F'
+ORDER BY
+ PrimeiroNome;
+```
 
 ![Exercicio 9](Imagens/9.png)
 
