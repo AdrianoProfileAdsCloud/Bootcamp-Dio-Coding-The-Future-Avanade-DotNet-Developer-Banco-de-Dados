@@ -8,16 +8,16 @@ USE Filmes;
 		FROM
 			Filmes;
 
--- 2 - Buscar o nome e ano dos filmes, ordenados por ordem crescente pelo ano
+-- 2 - Buscar o nome,ano e duraÃ§Ã£o dos filmes, ordenados por ordem crescente pelo ano
 
 		SELECT 
-			NOME,ANO
+			NOME,ANO,DURACAO
 		FROM
 			FILMES
 		ORDER BY
 			ANO;
 
--- 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duração
+-- 3 - Buscar pelo filme de volta para o futuro, trazendo o nome, ano e a duraÃ§Ã£o
 
 		SELECT
 			NOME,ANO,DURACAO
@@ -27,7 +27,7 @@ USE Filmes;
 			NOME = 'DE VOLTA PARA O FUTURO';
 
 
---4 - Buscar os filmes lançados em 1997
+--4 - Buscar os filmes lanÃ§ados em 1997
 
 		SELECT 
 			* 
@@ -36,7 +36,7 @@ USE Filmes;
 		WHERE
 			ANO = 1997;
 
---5 - Buscar os filmes lançados APÓS o ano 2000
+--5 - Buscar os filmes lanÃ§ados APÃ“S o ano 2000
 
 		SELECT
 			*
@@ -59,7 +59,7 @@ USE Filmes;
 			DURACAO 
 		ASC;
 
--- 7 - Buscar a quantidade de filmes lançadas no ano, agrupando por ano, ordenando pela duracao em ordem decrescente
+-- 7 - Buscar a quantidade de filmes lanÃ§adas no ano, agrupando por ano, ordenando pela duracao em ordem decrescente
 
 		SELECT
 			ANO, COUNT(*) AS Total_de_Filmes
@@ -71,7 +71,7 @@ USE Filmes;
 			Total_de_Filmes
 		DESC;
 
--- 8 - Buscar os Atores do gênero masculino, retornando o PrimeiroNome, UltimoNome
+-- 8 - Buscar os Atores do gÃªnero masculino, retornando o PrimeiroNome, UltimoNome
 
 		SELECT 
 			PrimeiroNome,UltimoNome
@@ -80,7 +80,7 @@ USE Filmes;
 		WHERE
 			GENERO = 'M';
 
--- 9 - Buscar os Atores do gênero feminino, retornando o PrimeiroNome, UltimoNome, e ordenando pelo PrimeiroNome
+-- 9 - Buscar os Atores do gÃªnero feminino, retornando o PrimeiroNome, UltimoNome, e ordenando pelo PrimeiroNome
 
 		SELECT
 			PrimeiroNome,UltimoNome
@@ -91,7 +91,7 @@ USE Filmes;
 		ORDER BY
 			PrimeiroNome;
 
--- 10 - Buscar o nome do filme e o gênero
+-- 10 - Buscar o nome do filme e o gÃªnero
 
 		SELECT
 			F.NOME,G.GENERO 
@@ -102,7 +102,7 @@ USE Filmes;
 		INNER JOIN
 			FILMES  AS F ON F.ID = FG.IDFILME;
 
--- 11 - Buscar o nome do filme e o gênero do tipo "Mistério"
+-- 11 - Buscar o nome do filme e o gÃªnero do tipo "MistÃ©rio"
  
         SELECT
 			F.NOME,G.GENERO 
@@ -113,7 +113,7 @@ USE Filmes;
 		INNER JOIN
 			FILMES  AS F ON F.ID = FG.IDFILME
 		WHERE
-			G.GENERO = 'MISTÉRIO';
+			G.GENERO = 'MISTÃ‰RIO';
 
 -- 12 - Buscar o nome do filme e os atores, trazendo o PrimeiroNome, UltimoNome e seu Papel
 
