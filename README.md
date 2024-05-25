@@ -72,10 +72,10 @@ FROM
 
 ![Exercicio 1](Imagens/1.png)
 
-## 2 - Buscar o nome e ano dos filmes, ordenados por ordem crescente pelo ano
+## 2 - Buscar o nome,duração e ano dos filmes, ordenados por ordem crescente pelo ano
 ```sql
 SELECT 
-  NOME,ANO
+  NOME,ANO,DURACAO
 FROM
   FILMES
 ORDER BY
