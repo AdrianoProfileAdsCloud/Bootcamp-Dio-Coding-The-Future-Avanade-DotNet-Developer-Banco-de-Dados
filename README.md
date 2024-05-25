@@ -1,7 +1,8 @@
 # Bootcamp Dio - Coding The Future Avanade .NET Developer - Banco de Dados(SGBD)
 
-> ℹ️ **Note**Desafio de projeto
-Apresentar os conhecimentos adquiridos no módulo de banco de dados,para  criar um Banco de Dados em Microsoft Sql Server e realizar algumas consultas conforme a seguir.
+> ℹ️ **Desafio de projeto**
+> <br>
+><p>Apresentar os conhecimentos adquiridos no módulo de banco de dados,para  criar um Banco de Dados em Microsoft Sql Server e realizar algumas consultas conforme a seguir.</p>
 
 ## 🎯Contexto
 Sou responsável pelo banco de dados de um site de filmes, onde são armazenados dados sobre os filmes e seus atores. Sendo assim, quero realizar uma consulta no banco de dados com o objetivo de trazer alguns dados para análises.
