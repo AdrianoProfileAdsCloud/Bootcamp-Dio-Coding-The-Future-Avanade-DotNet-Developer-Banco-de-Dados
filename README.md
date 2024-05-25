@@ -193,7 +193,7 @@ INNER JOIN
 ![Exercicio 10](Imagens/10.png)
 
 ## 11 - Buscar o nome do filme e o gênero do tipo "Mistério"
-```slq
+```sql
 SELECT
   F.NOME,G.GENERO 
 FROM 
@@ -209,5 +209,19 @@ WHERE
 ![Exercicio 11](Imagens/11.png)
 
 ## 12 - Buscar o nome do filme e os atores, trazendo o PrimeiroNome, UltimoNome e seu Papel
+```sql
+SELECT
+  F.NOME,A.PrimeiroNome,A.UltimoNome,EF.Papel 
+FROM 
+  ElencoFilme as EF
+INNER JOIN
+  ATORES AS A
+ON
+  A.ID = EF.IdAtor
+INNER JOIN
+  FILMES AS F
+ON
+  F.ID = EF.IdFilme;
+```
 
 ![Exercicio 12](Imagens/12.png)
