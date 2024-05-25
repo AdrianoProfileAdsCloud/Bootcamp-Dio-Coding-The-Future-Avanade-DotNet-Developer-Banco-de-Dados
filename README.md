@@ -179,10 +179,32 @@ ORDER BY
 ![Exercicio 9](Imagens/9.png)
 
 ## 10 - Buscar o nome do filme e o gênero
+```sql
+SELECT
+  F.NOME,G.GENERO 
+FROM 
+  FilmesGenero AS FG 
+INNER JOIN
+  GENEROS AS G ON G.ID = FG.IDGENERO
+INNER JOIN
+  FILMES  AS F ON F.ID = FG.IDFILME;
+```
 
 ![Exercicio 10](Imagens/10.png)
 
 ## 11 - Buscar o nome do filme e o gênero do tipo "Mistério"
+```slq
+SELECT
+  F.NOME,G.GENERO 
+FROM 
+  FilmesGenero AS FG 
+INNER JOIN
+  GENEROS AS G ON G.ID = FG.IDGENERO
+INNER JOIN
+  FILMES  AS F ON F.ID = FG.IDFILME
+WHERE
+  G.GENERO = 'MISTÉRIO';
+```
 
 ![Exercicio 11](Imagens/11.png)
 
