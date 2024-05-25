@@ -97,10 +97,26 @@ WHERE
 ![Exercicio 3](Imagens/3.png)
 
 ## 4 - Buscar os filmes lançados em 1997
+```sql
+SELECT 
+ * 
+FROM
+ FILMES
+WHERE
+ ANO = 1997;
+```
 
 ![Exercicio 4](Imagens/4.png)
 
 ## 5 - Buscar os filmes lançados APÓS o ano 2000
+```sql
+SELECT
+ *
+FROM 
+ FILMES
+WHERE 
+ ANO > 2000;
+```
 
 ![Exercicio 5](Imagens/5.png)
 
